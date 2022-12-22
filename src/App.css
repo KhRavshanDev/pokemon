@@ -1,0 +1,63 @@
+body {
+  background-color: rgba(38, 0, 255, 0.816);
+}
+
+.themeText {
+  text-align: center;
+  margin: 0;  
+  height: 70px;
+  color: rgb(255, 234, 0);
+  font-size: 50px;
+}
+
+/*search*/
+
+.searchArea{
+  display: flex;
+  justify-content: center;
+  margin-top: 27px;
+}
+
+.searchArea > input {
+  background-color: white;
+  height: 50px;
+  width: 400px;
+  padding: 10px;
+  border-radius: 45px;
+  font-size: 22px;
+  border: none;
+}
+
+.searchArea > button {
+  background-color: YELLOW;
+  color: BLUE;
+  padding: 11px;
+  font-size: 35px;
+  font-family: sans-serif;
+  border-radius: 15px;
+  border: none;
+  margin-left: 11px;
+}
+
+.resultCard{
+  display: flex;
+  justify-content: center;
+  text-align: center; 
+}
+
+.resultCard > .card {
+  border-radius: 25px;
+  width: 349px;
+  height: 479px;
+  background: white;
+  margin: 21px 0 0 0;
+  cursor: pointer;
+}
+
+.card > img {
+  width: 51%;
+}
+
+p {
+  font-weight: bold;
+}
